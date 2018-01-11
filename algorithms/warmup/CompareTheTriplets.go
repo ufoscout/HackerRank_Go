@@ -18,7 +18,7 @@ func main3() {
 	fmt.Printf("%v %v", result[0], result[1])
 }
 
-func calculateScore(a [3]int, b [3]int) [2]int {
+func calculateScore(a []int, b []int) []int {
 	result := make([]int, 2)
 	compareValues(a[0], b[0], result)
 	compareValues(a[1], b[1], result)
